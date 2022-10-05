@@ -39,6 +39,9 @@ This Online Retail II data set contains all the transactions occurring for a UK-
 
 - **Country:** Country name. Nominal. The name of the country where a customer resides.
 
+
+Link: ``https://archive.ics.uci.edu/ml/datasets/Online+Retail+II``
+
 <br />
 <br />
 
