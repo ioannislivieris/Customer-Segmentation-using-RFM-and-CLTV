@@ -11,6 +11,7 @@
 - [Customer Life Time Value](#customer-life-time-value)
     - [Business problems addressed by CLTV](#business-problems-addressed-by-cltv)
     - [CLTV Statistics](#cltv-statistics)
+- [Re]
 - [Requirements](#requirements)
 - [Contact](#contact)
 
@@ -90,18 +91,37 @@ In marketing, customer lifetime value (CLV or often CLTV), lifetime customer val
 <br />
 <br />
 
+
+## Recommendation System with Association Rule Learning
+---
+
+Association Rule Mining (ARM) is a great way to implement a session-based recommendation system. It can be used to provide session-based recommendations and Apriori is one such widely accepted ARM algorithm.
+
+There are 3 main components of the Apriori algorithm —
+
+- *Support* — Probability of records containing both product listing page with ID 1 and ID 2.
+
+- *Confidence* — Conditional Probability of records containing product listing page with ID 2 given ID 1. [P(ID2|ID1)]
+
+- *Lift* — Ratio of Confidence to Support. If the lift is < 1 then product listing page with ID 1 and ID 2 are negatively correlated (doesn’t belong together in recommendations) else positively correlated.
+
+<br />
+<br />
+
+
 ## Requirements
 ---
 
 - python>=3.7
 - matplotlib==3.5.1
+- mlxtend==0.21.0
 - numpy==1.21.5
 - scipy==1.7.3
 - pandas==1.3.5
 - scikit-learn==1.0.2
 - seaborn==0.11.0
 - lifetimes==0.11.3
-
+- 
 
 <br />
 <br />
