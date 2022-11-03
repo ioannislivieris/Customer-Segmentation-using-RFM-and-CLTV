@@ -11,7 +11,7 @@
 - [Customer Life Time Value](#customer-life-time-value)
     - [Business problems addressed by CLTV](#business-problems-addressed-by-cltv)
     - [CLTV Statistics](#cltv-statistics)
-- [Re]
+- [Recommendation System with Association Rule Learning](#recommendation-system-with-association-rule-learning)
 - [Requirements](#requirements)
 - [Contact](#contact)
 
