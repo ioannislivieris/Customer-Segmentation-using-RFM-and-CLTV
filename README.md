@@ -121,7 +121,6 @@ There are 3 main components of the Apriori algorithm —
 - scikit-learn==1.0.2
 - seaborn==0.11.0
 - lifetimes==0.11.3
-- 
 
 <br />
 <br />
